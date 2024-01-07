@@ -27,7 +27,7 @@
     width: 500px;
     margin: 0 auto 0;
 }
-.task {
+.add-item__input {
     width: 56%;
     display: inline-block;
     flex-grow: 1;
@@ -119,12 +119,12 @@
 .list__item > .input[type="text"] {
     width: 226px;
 }
-.remove-img {
+.btn__img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-.remove-img:hover {
+.btn__img:hover {
     transform: rotateZ(0);
 }
 
